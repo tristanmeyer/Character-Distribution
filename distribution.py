@@ -49,8 +49,11 @@ for b in a:
         t = (text.count(b))*(b)
         w.append(t)
 w.sort()
+n = (sorted(w, key = len, reverse = True))
+n.sort()
+print(n)
 
-print(w)
+#print(w)
 
 
 """    
