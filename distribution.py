@@ -50,8 +50,9 @@ for b in a:
         w.append(t)
 w.sort()
 n = (sorted(w, key = len, reverse = True))
-n.sort()
-print(n)
+for z in n:
+    print(z)
+
 
 #print(w)
 
