@@ -38,7 +38,7 @@ Notice about this example:
 """
 
 text = str(input("Please enter a string of text (the bigger the better): "))
-print('The ditribution of characters in "'+ text + '" is: ')
+print('The distribution of characters in "'+ text + '" is: ')
 text = text.lower()
 text = list(text)
 a = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
@@ -52,24 +52,3 @@ w.sort()
 n = (sorted(w, key = len, reverse = True))
 for z in n:
     print(z)
-
-
-#print(w)
-
-
-"""    
-t = list(t)
-print(t)
-
-a = [2,3,4,2,3,5,2]
-a.sort()
-print(a)
-
-for a in text:
-    if a != " ":
-        t = t + a
-    if a == " ":
-        w.append(t)
-        t = ""
-w.append(t)
-"""
